@@ -1,0 +1,42 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap") */
+/*! no-unicode */
+
+.main-section {
+  border: 2px solid;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url("../assets/8c98994518b575bfd8c949e91d20548b.jpg");
+  background-color: rgba(255, 255, 255, 0.2);
+  /* opacity: 0.4; */
+}
+.form-section {
+  /* border: 2px solid; */
+  border-radius: 40px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* margin: 20px; */
+
+  padding-right: 1rem;
+  width: 40%;
+
+  height: 60%;
+}
+@media only screen and (max-width: 798px) {
+  .form-section {
+    width: 70%; /* Adjust the width for smaller screens */
+  }
+}
+
+.form-heading {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0%;
+}
